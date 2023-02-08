@@ -63,7 +63,7 @@ def check_previous_conversation():
 class YahooNews:
     def __init__(self) -> None:
         st.set_page_config(page_title="Yahoo! O&O", page_icon="🚀")
-        image = Image.open('assets/logo_close.png')
+        image = Image.open('logo_close.png')
 
         col1, col2, col3 = st.columns(3)
         with col1:
